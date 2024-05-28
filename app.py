@@ -2,8 +2,8 @@ import requests
 import xml.etree.ElementTree as ET
 import json
 
-# URL del endpoint SOAP
-url = "https://wsqa.redpack.com.mx/RedpackAPI_WS/services/RedpackWS?wsdl"  
+# URL del endpoint SOAP con puerto
+url = "https://wsqa.redpack.com.mx:8080/RedpackAPI_WS/services/RedpackWS?wsdl"  
 
 # Encabezados del request
 headers = {
