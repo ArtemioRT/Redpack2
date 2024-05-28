@@ -95,5 +95,5 @@ def get_cotizaciones():
     else:
         print(f'POST request failed with status code: {response.status_code}')
 
-if __name__ == '__main__':
-    get_cotizaciones()
+# Llama a la función directamente
+get_cotizaciones()
