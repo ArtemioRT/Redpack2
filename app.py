@@ -81,7 +81,7 @@ def get_cotizaciones():
     print(cotizaciones_json)
 
     # Define la URL para el POST request
-    post_url = 'https://nuvaapp.bubbleapps.io/version-test/api/1.1/wf/crear_ot_pt3/initialize'
+    post_url = 'https://nuvaapp.bubbleapps.io/version-test/api/1.1/wf/crear_ot_pt3'
 
     # Define los datos del payload
     payload = {'cotizaciones': cotizaciones}
