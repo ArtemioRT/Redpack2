@@ -8,7 +8,7 @@ app = Flask(__name__)
 @app.route('/get_cotizaciones', methods=['GET'])
 def get_cotizaciones():
     # URL del endpoint SOAP con puerto
-    url = "https://wsqa.redpack.com.mx:8080/RedpackAPI_WS/services/RedpackWS?wsdl"
+    url = "https://wsqa.redpack.com.mx/RedpackAPI_WS/services/RedpackWS?wsdl"
 
     # Encabezados del request
     headers = {
