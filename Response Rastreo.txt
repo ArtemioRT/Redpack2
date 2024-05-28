@@ -1,0 +1,203 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+   <soapenv:Body>
+      <ns:rastreoResponse xmlns:ns="http://ws.redpack.com" xmlns:ax21="http://vo.redpack.com/xsd">
+         <ns:return xsi:type="ax21:Guia" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <ax21:auxiliar xsi:type="ax21:IdDesc">
+               <ax21:auxiliar xsi:nil="true"/>
+               <ax21:descripcion>1</ax21:descripcion>
+               <ax21:equivalencia>tieneFirma</ax21:equivalencia>
+               <ax21:id>0</ax21:id>
+            </ax21:auxiliar>
+            <ax21:auxiliar xsi:type="ax21:IdDesc">
+               <ax21:auxiliar xsi:nil="true"/>
+               <ax21:descripcion>0</ax21:descripcion>
+               <ax21:equivalencia>TIENE_OCURRE</ax21:equivalencia>
+               <ax21:id>0</ax21:id>
+            </ax21:auxiliar>
+            <ax21:claveDex xsi:nil="true"/>
+            <ax21:consignatario xsi:type="ax21:Direccion">
+               <ax21:calle xsi:nil="true"/>
+               <ax21:ciudad xsi:nil="true"/>
+               <ax21:codigoPostal>42080</ax21:codigoPostal>
+               <ax21:colonia_Asentamiento>CENTRO MINERO</ax21:colonia_Asentamiento>
+               <ax21:contacto xsi:nil="true"/>
+               <ax21:email xsi:nil="true"/>
+               <ax21:estado xsi:nil="true"/>
+               <ax21:iata xsi:type="ax21:IdDesc">
+                  <ax21:auxiliar xsi:nil="true"/>
+                  <ax21:descripcion>PACHUCA</ax21:descripcion>
+                  <ax21:equivalencia>HGO</ax21:equivalencia>
+                  <ax21:id>0</ax21:id>
+               </ax21:iata>
+               <ax21:nombre_Compania xsi:nil="true"/>
+               <ax21:numeroExterior xsi:nil="true"/>
+               <ax21:numeroInterior xsi:nil="true"/>
+               <ax21:pais xsi:nil="true"/>
+               <ax21:referenciaUbicacion xsi:nil="true"/>
+               <ax21:telefonos xsi:nil="true"/>
+            </ax21:consignatario>
+            <ax21:costoSeguro>0.0</ax21:costoSeguro>
+            <ax21:cotizaciones xsi:nil="true"/>
+            <ax21:fechaDocumentacion>2023-06-01T16:39:03.000-06:00</ax21:fechaDocumentacion>
+            <ax21:fechaSituacion>2023-06-05T19:59:25.000-06:00</ax21:fechaSituacion>
+            <ax21:flag>0</ax21:flag>
+            <ax21:guiaAsegurada>false</ax21:guiaAsegurada>
+            <ax21:moneda>2023-06-05 23:59:59.0</ax21:moneda>
+            <ax21:numeroDeGuia>89680613</ax21:numeroDeGuia>
+            <ax21:observaciones xsi:nil="true"/>
+            <ax21:paquetes xsi:type="ax21:Paquete">
+               <ax21:alto>20</ax21:alto>
+               <ax21:ancho>20</ax21:ancho>
+               <ax21:auxiliar xsi:nil="true"/>
+               <ax21:consecutivo>1</ax21:consecutivo>
+               <ax21:descripcion xsi:nil="true"/>
+               <ax21:detallesRastreo xsi:type="ax21:DetalleRastreo">
+                  <ax21:descripcionEvento xsi:nil="true"/>
+                  <ax21:evento>ENTREGADO</ax21:evento>
+                  <ax21:fechaEvento>2023-06-05T19:59:25.000-06:00</ax21:fechaEvento>
+                  <ax21:localizacion>PACHUCA, HIDALGO</ax21:localizacion>
+                  <ax21:observaciones>CTO:4276549 RUTA:C142520</ax21:observaciones>
+               </ax21:detallesRastreo>
+               <ax21:detallesRastreo xsi:type="ax21:DetalleRastreo">
+                  <ax21:descripcionEvento xsi:nil="true"/>
+                  <ax21:evento>EMBARCADO EN RUTA DE ENTREGA</ax21:evento>
+                  <ax21:fechaEvento>2023-06-05T10:03:53.000-06:00</ax21:fechaEvento>
+                  <ax21:localizacion>PACHUCA, HIDALGO</ax21:localizacion>
+                  <ax21:observaciones>CTO:4276549 RUTA:C142520</ax21:observaciones>
+               </ax21:detallesRastreo>
+               <ax21:detallesRastreo xsi:type="ax21:DetalleRastreo">
+                  <ax21:descripcionEvento xsi:nil="true"/>
+                  <ax21:evento>NO ENTREGADO (PRIMERA VISITA)</ax21:evento>
+                  <ax21:fechaEvento>2023-06-04T09:51:20.000-06:00</ax21:fechaEvento>
+                  <ax21:localizacion>PACHUCA, HIDALGO</ax21:localizacion>
+                  <ax21:observaciones>CIRCUITO: 4276166 CHRISTIAN IVAN VELASCO HERNAN</ax21:observaciones>
+               </ax21:detallesRastreo>
+               <ax21:detallesRastreo xsi:type="ax21:DetalleRastreo">
+                  <ax21:descripcionEvento xsi:nil="true"/>
+                  <ax21:evento>EMBARCADO EN RUTA DE ENTREGA</ax21:evento>
+                  <ax21:fechaEvento>2023-06-04T08:55:31.000-06:00</ax21:fechaEvento>
+                  <ax21:localizacion>PACHUCA, HIDALGO</ax21:localizacion>
+                  <ax21:observaciones>CTO:4276166 MOV:C142000 LOC:HGO</ax21:observaciones>
+               </ax21:detallesRastreo>
+               <ax21:detallesRastreo xsi:type="ax21:DetalleRastreo">
+                  <ax21:descripcionEvento xsi:nil="true"/>
+                  <ax21:evento>RECIBIDO EN OFICINA</ax21:evento>
+                  <ax21:fechaEvento>2023-06-02T13:49:38.000-06:00</ax21:fechaEvento>
+                  <ax21:localizacion>PACHUCA, HIDALGO</ax21:localizacion>
+                  <ax21:observaciones>DESC:CTO. ENVIOS EN PISO HGO CTO:4274438 MOV: 1 LOC:HGO</ax21:observaciones>
+               </ax21:detallesRastreo>
+               <ax21:detallesRastreo xsi:type="ax21:DetalleRastreo">
+                  <ax21:descripcionEvento xsi:nil="true"/>
+                  <ax21:evento>RECIBIDO EN OFICINA</ax21:evento>
+                  <ax21:fechaEvento>2023-06-02T09:21:33.000-06:00</ax21:fechaEvento>
+                  <ax21:localizacion>PACHUCA, HIDALGO</ax21:localizacion>
+                  <ax21:observaciones>DESC:C.O.MEX - HGO JUEVES  1/06/2023  CTO:4272087 MOV: 3 LOC:HGO</ax21:observaciones>
+               </ax21:detallesRastreo>
+               <ax21:detallesRastreo xsi:type="ax21:DetalleRastreo">
+                  <ax21:descripcionEvento xsi:nil="true"/>
+                  <ax21:evento>SALIDA DE OFICINA</ax21:evento>
+                  <ax21:fechaEvento>2023-06-02T02:57:16.000-06:00</ax21:fechaEvento>
+                  <ax21:localizacion>TULTITLAN, MEXICO</ax21:localizacion>
+                  <ax21:observaciones>C.O.MEX - HGO JUEVES  1/06/2023  CTO:4272087 MOV:1</ax21:observaciones>
+               </ax21:detallesRastreo>
+               <ax21:detallesRastreo xsi:type="ax21:DetalleRastreo">
+                  <ax21:descripcionEvento xsi:nil="true"/>
+                  <ax21:evento>RECIBIDO EN OFICINA</ax21:evento>
+                  <ax21:fechaEvento>2023-06-02T02:29:45.000-06:00</ax21:fechaEvento>
+                  <ax21:localizacion>TULTITLAN, MEXICO</ax21:localizacion>
+                  <ax21:observaciones>CTO:4272236 MOV:1</ax21:observaciones>
+               </ax21:detallesRastreo>
+               <ax21:detallesRastreo xsi:type="ax21:DetalleRastreo">
+                  <ax21:descripcionEvento xsi:nil="true"/>
+                  <ax21:evento>RECIBIDO EN OFICINA</ax21:evento>
+                  <ax21:fechaEvento>2023-06-01T23:05:48.000-06:00</ax21:fechaEvento>
+                  <ax21:localizacion>TULTITLAN, MEXICO</ax21:localizacion>
+                  <ax21:observaciones>-</ax21:observaciones>
+               </ax21:detallesRastreo>
+               <ax21:detallesRastreo xsi:type="ax21:DetalleRastreo">
+                  <ax21:descripcionEvento xsi:nil="true"/>
+                  <ax21:evento>SALIDA DE OFICINA</ax21:evento>
+                  <ax21:fechaEvento>2023-06-01T23:05:48.000-06:00</ax21:fechaEvento>
+                  <ax21:localizacion>TOLUCA, EDO. MEX.</ax21:localizacion>
+                  <ax21:observaciones>DESC:RUTA TLC A C.O.MEX JUEVES 01.06.23 CTO:4272166 MOV: 2 LOC:TLC2</ax21:observaciones>
+               </ax21:detallesRastreo>
+               <ax21:detallesRastreo xsi:type="ax21:DetalleRastreo">
+                  <ax21:descripcionEvento xsi:nil="true"/>
+                  <ax21:evento>RECEPCION DE RUTA DE RECOLECCION</ax21:evento>
+                  <ax21:fechaEvento>2023-06-01T17:53:29.000-06:00</ax21:fechaEvento>
+                  <ax21:localizacion>TOLUCA, EDO. MEX.</ax21:localizacion>
+                  <ax21:observaciones>-</ax21:observaciones>
+               </ax21:detallesRastreo>
+               <ax21:detallesRastreo xsi:type="ax21:DetalleRastreo">
+                  <ax21:descripcionEvento xsi:nil="true"/>
+                  <ax21:evento>RECOLECTADO</ax21:evento>
+                  <ax21:fechaEvento>2023-06-01T16:39:03.000-06:00</ax21:fechaEvento>
+                  <ax21:localizacion>TOLUCA, EDO. MEX.</ax21:localizacion>
+                  <ax21:observaciones xsi:nil="true"/>
+               </ax21:detallesRastreo>
+               <ax21:detallesRastreo xsi:type="ax21:DetalleRastreo">
+                  <ax21:descripcionEvento xsi:nil="true"/>
+                  <ax21:evento>EN PREPARACION</ax21:evento>
+                  <ax21:fechaEvento>2023-06-01T09:57:38.000-06:00</ax21:fechaEvento>
+                  <ax21:localizacion>INDETERMINADA</ax21:localizacion>
+                  <ax21:observaciones>-</ax21:observaciones>
+               </ax21:detallesRastreo>
+               <ax21:formatoEtiqueta xsi:nil="true"/>
+               <ax21:largo>20</ax21:largo>
+               <ax21:peso>3.0</ax21:peso>
+            </ax21:paquetes>
+            <ax21:personaRecibio>Christian IvÃ¡n Velasco</ax21:personaRecibio>
+            <ax21:pruebaDeEnterga xsi:nil="true"/>
+            <ax21:referencia xsi:nil="true"/>
+            <ax21:remitente xsi:type="ax21:Direccion">
+               <ax21:calle xsi:nil="true"/>
+               <ax21:ciudad xsi:nil="true"/>
+               <ax21:codigoPostal xsi:nil="true"/>
+               <ax21:colonia_Asentamiento xsi:nil="true"/>
+               <ax21:contacto xsi:nil="true"/>
+               <ax21:email xsi:nil="true"/>
+               <ax21:estado xsi:nil="true"/>
+               <ax21:iata xsi:type="ax21:IdDesc">
+                  <ax21:auxiliar xsi:nil="true"/>
+                  <ax21:descripcion>TOLUCA, EDO. MEX.</ax21:descripcion>
+                  <ax21:equivalencia xsi:nil="true"/>
+                  <ax21:id>0</ax21:id>
+               </ax21:iata>
+               <ax21:nombre_Compania xsi:nil="true"/>
+               <ax21:numeroExterior xsi:nil="true"/>
+               <ax21:numeroInterior xsi:nil="true"/>
+               <ax21:pais xsi:nil="true"/>
+               <ax21:referenciaUbicacion xsi:nil="true"/>
+               <ax21:telefonos xsi:nil="true"/>
+            </ax21:remitente>
+            <ax21:resultadoConsumoWS xsi:type="ax21:Resultado">
+               <ax21:descripcion>GENERACIÓN CORRECTA</ax21:descripcion>
+               <ax21:estatus>1</ax21:estatus>
+               <ax21:gravedad>3</ax21:gravedad>
+            </ax21:resultadoConsumoWS>
+            <ax21:situacion xsi:type="ax21:IdDesc">
+               <ax21:auxiliar xsi:nil="true"/>
+               <ax21:descripcion>ENTREGADO</ax21:descripcion>
+               <ax21:equivalencia>40</ax21:equivalencia>
+               <ax21:id>1</ax21:id>
+            </ax21:situacion>
+            <ax21:tipoCambio>0.0</ax21:tipoCambio>
+            <ax21:tipoEntrega xsi:nil="true"/>
+            <ax21:tipoEnvio xsi:type="ax21:IdDesc">
+               <ax21:auxiliar xsi:nil="true"/>
+               <ax21:descripcion>PAQUETE</ax21:descripcion>
+               <ax21:equivalencia xsi:nil="true"/>
+               <ax21:id>0</ax21:id>
+            </ax21:tipoEnvio>
+            <ax21:tipoIdentificacion xsi:nil="true"/>
+            <ax21:tipoServicio xsi:type="ax21:IdDesc">
+               <ax21:auxiliar xsi:nil="true"/>
+               <ax21:descripcion>ECOEXPRESS</ax21:descripcion>
+               <ax21:equivalencia xsi:nil="true"/>
+               <ax21:id>0</ax21:id>
+            </ax21:tipoServicio>
+            <ax21:valorDeclarado>0.0</ax21:valorDeclarado>
+         </ns:return>
+      </ns:rastreoResponse>
+   </soapenv:Body>
+</soapenv:Envelope>

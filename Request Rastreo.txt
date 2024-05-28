@@ -1,0 +1,12 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ws="http://ws.redpack.com" xmlns:xsd="http://vo.redpack.com/xsd">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <ws:rastreo>
+         <ws:PIN>PROD nSYOVMfdFOtT7XDpCbPOh4HAnsm7JaarfM8+mtWXu0k=</ws:PIN>
+         <ws:idUsuario>2776</ws:idUsuario>
+         <ws:guias>
+            <xsd:numeroDeGuia>89680613</xsd:numeroDeGuia>
+         </ws:guias>
+      </ws:rastreo>
+   </soapenv:Body>
+</soapenv:Envelope>

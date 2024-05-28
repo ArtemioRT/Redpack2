@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?><SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns0="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="http://ws.redpack.com" xmlns:ns2="http://vo.redpack.com/xsd">
+	<ns0:Body>
+		<ns1:documentacion>
+			<ns1:PIN>QA nSYOVMfdFOtT7XDpCbPOh4HAnsm7JaarfM8+mtWXu0k=</ns1:PIN>
+			<ns1:idUsuario>2776</ns1:idUsuario>
+				<ns1:guias>
+					<ns2:auxiliar>
+						<ns2:descripcion>RFC_REMITENTE</ns2:descripcion>
+						<ns2:equivalencia>COP920428Q20</ns2:equivalencia>
+					</ns2:auxiliar>
+					<ns2:auxiliar>
+						<ns2:descripcion>RFC_CONSIGNATARIO</ns2:descripcion>
+						<ns2:equivalencia>XAXX010101000</ns2:equivalencia>
+					</ns2:auxiliar>
+					<ns2:auxiliar>
+						<ns2:descripcion>TIPO_MONEDA</ns2:descripcion>
+						<ns2:equivalencia>MNX</ns2:equivalencia>
+					</ns2:auxiliar>
+					<ns2:consignatario>
+						<ns2:calle>francita 13</ns2:calle>
+						<ns2:ciudad>Poza Rica de Hidalgo</ns2:ciudad>
+						<ns2:codigoPostal>93290</ns2:codigoPostal>
+						<ns2:colonia_Asentamiento>PETROMEX</ns2:colonia_Asentamiento>
+						<ns2:contacto>DANIELA GARCIA DANIELA GARCIA</ns2:contacto>
+						<ns2:estado>VERACRUZ</ns2:estado>
+						<ns2:nombre_Compania>DANIELA GARCIA VAZQUEZ</ns2:nombre_Compania>
+						<ns2:numeroExterior>13</ns2:numeroExterior>
+						<ns2:numeroInterior>NA</ns2:numeroInterior>
+						<ns2:pais>MX</ns2:pais>
+						<ns2:referenciaUbicacion>NANCHITAZACAMIXTLE</ns2:referenciaUbicacion>
+						<ns2:telefonos>
+							<ns2:telefono>0178210994</ns2:telefono>
+						</ns2:telefonos>
+					</ns2:consignatario>
+					<ns2:fechaDocumentacion>2022-05-16T13:44:47</ns2:fechaDocumentacion>
+					<ns2:flag>0</ns2:flag>
+					<ns2:guiaAsegurada>false</ns2:guiaAsegurada>
+					<ns2:moneda>122248</ns2:moneda>
+					<ns2:numeroDeGuia>89693500</ns2:numeroDeGuia>
+					<ns2:observaciones>CASA COLOR NARANJA, CASA COLOR NARANJA</ns2:observaciones>
+					<ns2:paquetes>
+						<ns2:alto>14</ns2:alto>
+						<ns2:ancho>35</ns2:ancho>
+						<ns2:consecutivo>1</ns2:consecutivo>
+						<ns2:descripcion>ROPA</ns2:descripcion>
+						<ns2:largo>40</ns2:largo>
+						<ns2:peso>5</ns2:peso>
+					</ns2:paquetes>
+					<ns2:referencia>96644779/841720</ns2:referencia>
+					<ns2:remitente>
+						<ns2:calle>Ctra tolucaatlacomulco</ns2:calle>
+						<ns2:ciudad>Toluca</ns2:ciudad>
+						<ns2:codigoPostal>50200</ns2:codigoPostal>
+						<ns2:colonia_Asentamiento>DEL. SAN MARTIN TOLTEPEC</ns2:colonia_Asentamiento>
+						<ns2:contacto>COPPEL SA DE C COPPEL SA DE C</ns2:contacto>
+						<ns2:estado>EDO. DE MEXICO</ns2:estado>
+						<ns2:nombre_Compania>COPPEL SA DE CV</ns2:nombre_Compania>
+						<ns2:numeroExterior>2011</ns2:numeroExterior>
+						<ns2:numeroInterior>NA</ns2:numeroInterior>
+						<ns2:pais>MX</ns2:pais>
+						<ns2:referenciaUbicacion>CARRETERA TOLUCA</ns2:referenciaUbicacion>
+						<ns2:telefonos>
+							<ns2:telefono>667589100</ns2:telefono>
+						</ns2:telefonos>
+					</ns2:remitente>
+					<ns2:tipoEntrega>
+						<ns2:id>2</ns2:id>
+					</ns2:tipoEntrega>
+					<ns2:tipoEnvio>
+						<ns2:id>1</ns2:id>
+					</ns2:tipoEnvio>
+					<ns2:tipoIdentificacion>
+						<ns2:descripcion>0</ns2:descripcion>
+						<ns2:id>0</ns2:id>
+					</ns2:tipoIdentificacion>
+					<ns2:tipoServicio>
+						<ns2:id>2</ns2:id>
+					</ns2:tipoServicio>
+					<ns2:valorDeclarado>3080</ns2:valorDeclarado>
+				</ns1:guias>
+			</ns1:documentacion>
+		</ns0:Body>
+	</SOAP-ENV:Envelope>

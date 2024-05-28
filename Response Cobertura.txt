@@ -1,0 +1,336 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+   <soapenv:Body>
+      <ns:coberturaNacionalResponse xmlns:ns="http://ws.redpack.com" xmlns:ax21="http://vo.redpack.com/xsd">
+         <ns:return xsi:type="ax21:Guia" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <ax21:auxiliar xsi:nil="true"/>
+            <ax21:claveDex xsi:nil="true"/>
+            <ax21:consignatario xsi:type="ax21:Direccion">
+               <ax21:calle xsi:nil="true"/>
+               <ax21:ciudad xsi:nil="true"/>
+               <ax21:codigoPostal>80000</ax21:codigoPostal>
+               <ax21:colonia_Asentamiento>CULIACAN (CUL)</ax21:colonia_Asentamiento>
+               <ax21:contacto xsi:nil="true"/>
+               <ax21:email xsi:nil="true"/>
+               <ax21:estado>SINALOA</ax21:estado>
+               <ax21:iata xsi:nil="true"/>
+               <ax21:nombre_Compania xsi:nil="true"/>
+               <ax21:numeroExterior xsi:nil="true"/>
+               <ax21:numeroInterior xsi:nil="true"/>
+               <ax21:pais xsi:nil="true"/>
+               <ax21:referenciaUbicacion xsi:nil="true"/>
+               <ax21:telefonos xsi:nil="true"/>
+            </ax21:consignatario>
+            <ax21:costoSeguro>0.0</ax21:costoSeguro>
+            <ax21:cotizaciones xsi:type="ax21:Cotizacion">
+               <ax21:descripcion>NORMAL</ax21:descripcion>
+               <ax21:detallesCotizacion xsi:nil="true"/>
+               <ax21:tarifa>0.0</ax21:tarifa>
+               <ax21:tiempoEntrega xsi:nil="true"/>
+               <ax21:tiempoSobre>24.0</ax21:tiempoSobre>
+               <ax21:tipoServicio xsi:type="ax21:IdDesc">
+                  <ax21:auxiliar>CENTRO SINALOA</ax21:auxiliar>
+                  <ax21:auxiliar/>
+                  <ax21:auxiliar>SABATINO</ax21:auxiliar>
+                  <ax21:descripcion>EXPRESS</ax21:descripcion>
+                  <ax21:equivalencia>OCURRE</ax21:equivalencia>
+                  <ax21:id>0</ax21:id>
+               </ax21:tipoServicio>
+            </ax21:cotizaciones>
+            <ax21:cotizaciones xsi:type="ax21:Cotizacion">
+               <ax21:descripcion>NORMAL</ax21:descripcion>
+               <ax21:detallesCotizacion xsi:nil="true"/>
+               <ax21:tarifa>0.0</ax21:tarifa>
+               <ax21:tiempoEntrega xsi:nil="true"/>
+               <ax21:tiempoSobre>24.0</ax21:tiempoSobre>
+               <ax21:tipoServicio xsi:type="ax21:IdDesc">
+                  <ax21:auxiliar>CENTRO SINALOA</ax21:auxiliar>
+                  <ax21:auxiliar/>
+                  <ax21:auxiliar>SABATINO</ax21:auxiliar>
+                  <ax21:descripcion>EXPRESS</ax21:descripcion>
+                  <ax21:equivalencia>DOMICILIO</ax21:equivalencia>
+                  <ax21:id>0</ax21:id>
+               </ax21:tipoServicio>
+            </ax21:cotizaciones>
+            <ax21:cotizaciones xsi:type="ax21:Cotizacion">
+               <ax21:descripcion>NORMAL</ax21:descripcion>
+               <ax21:detallesCotizacion xsi:nil="true"/>
+               <ax21:tarifa>0.0</ax21:tarifa>
+               <ax21:tiempoEntrega xsi:nil="true"/>
+               <ax21:tiempoSobre>96.0</ax21:tiempoSobre>
+               <ax21:tipoServicio xsi:type="ax21:IdDesc">
+                  <ax21:auxiliar>CENTRO SINALOA</ax21:auxiliar>
+                  <ax21:auxiliar/>
+                  <ax21:auxiliar>SABATINO</ax21:auxiliar>
+                  <ax21:descripcion>ECOEXPRESS</ax21:descripcion>
+                  <ax21:equivalencia>DOMICILIO</ax21:equivalencia>
+                  <ax21:id>0</ax21:id>
+               </ax21:tipoServicio>
+            </ax21:cotizaciones>
+            <ax21:cotizaciones xsi:type="ax21:Cotizacion">
+               <ax21:descripcion>NORMAL</ax21:descripcion>
+               <ax21:detallesCotizacion xsi:nil="true"/>
+               <ax21:tarifa>0.0</ax21:tarifa>
+               <ax21:tiempoEntrega xsi:nil="true"/>
+               <ax21:tiempoSobre>48.0</ax21:tiempoSobre>
+               <ax21:tipoServicio xsi:type="ax21:IdDesc">
+                  <ax21:auxiliar>CENTRO SINALOA</ax21:auxiliar>
+                  <ax21:auxiliar/>
+                  <ax21:auxiliar>SABATINO</ax21:auxiliar>
+                  <ax21:descripcion>METROPOLITANO</ax21:descripcion>
+                  <ax21:equivalencia>DOMICILIO</ax21:equivalencia>
+                  <ax21:id>0</ax21:id>
+               </ax21:tipoServicio>
+            </ax21:cotizaciones>
+            <ax21:cotizaciones xsi:type="ax21:Cotizacion">
+               <ax21:descripcion>NORMAL</ax21:descripcion>
+               <ax21:detallesCotizacion xsi:nil="true"/>
+               <ax21:tarifa>0.0</ax21:tarifa>
+               <ax21:tiempoEntrega xsi:nil="true"/>
+               <ax21:tiempoSobre>96.0</ax21:tiempoSobre>
+               <ax21:tipoServicio xsi:type="ax21:IdDesc">
+                  <ax21:auxiliar>CENTRO SINALOA</ax21:auxiliar>
+                  <ax21:auxiliar/>
+                  <ax21:auxiliar>SABATINO</ax21:auxiliar>
+                  <ax21:descripcion>ECOEXPRESS</ax21:descripcion>
+                  <ax21:equivalencia>OCURRE</ax21:equivalencia>
+                  <ax21:id>0</ax21:id>
+               </ax21:tipoServicio>
+            </ax21:cotizaciones>
+            <ax21:cotizaciones xsi:type="ax21:Cotizacion">
+               <ax21:descripcion>NORMAL</ax21:descripcion>
+               <ax21:detallesCotizacion xsi:nil="true"/>
+               <ax21:tarifa>0.0</ax21:tarifa>
+               <ax21:tiempoEntrega xsi:nil="true"/>
+               <ax21:tiempoSobre>48.0</ax21:tiempoSobre>
+               <ax21:tipoServicio xsi:type="ax21:IdDesc">
+                  <ax21:auxiliar>CENTRO SINALOA</ax21:auxiliar>
+                  <ax21:auxiliar/>
+                  <ax21:auxiliar>SABATINO</ax21:auxiliar>
+                  <ax21:descripcion>METROPOLITANO</ax21:descripcion>
+                  <ax21:equivalencia>OCURRE</ax21:equivalencia>
+                  <ax21:id>0</ax21:id>
+               </ax21:tipoServicio>
+            </ax21:cotizaciones>
+            <ax21:cotizaciones xsi:type="ax21:Cotizacion">
+               <ax21:descripcion>NORMAL</ax21:descripcion>
+               <ax21:detallesCotizacion xsi:nil="true"/>
+               <ax21:tarifa>0.0</ax21:tarifa>
+               <ax21:tiempoEntrega xsi:nil="true"/>
+               <ax21:tiempoSobre>48.0</ax21:tiempoSobre>
+               <ax21:tipoServicio xsi:type="ax21:IdDesc">
+                  <ax21:auxiliar>CULIACAN CENTRO</ax21:auxiliar>
+                  <ax21:auxiliar/>
+                  <ax21:auxiliar>SABATINO</ax21:auxiliar>
+                  <ax21:descripcion>METROPOLITANO</ax21:descripcion>
+                  <ax21:equivalencia>OCURRE</ax21:equivalencia>
+                  <ax21:id>0</ax21:id>
+               </ax21:tipoServicio>
+            </ax21:cotizaciones>
+            <ax21:cotizaciones xsi:type="ax21:Cotizacion">
+               <ax21:descripcion>NORMAL</ax21:descripcion>
+               <ax21:detallesCotizacion xsi:nil="true"/>
+               <ax21:tarifa>0.0</ax21:tarifa>
+               <ax21:tiempoEntrega xsi:nil="true"/>
+               <ax21:tiempoSobre>24.0</ax21:tiempoSobre>
+               <ax21:tipoServicio xsi:type="ax21:IdDesc">
+                  <ax21:auxiliar>CULIACAN CENTRO</ax21:auxiliar>
+                  <ax21:auxiliar/>
+                  <ax21:auxiliar>SABATINO</ax21:auxiliar>
+                  <ax21:descripcion>EXPRESS</ax21:descripcion>
+                  <ax21:equivalencia>DOMICILIO</ax21:equivalencia>
+                  <ax21:id>0</ax21:id>
+               </ax21:tipoServicio>
+            </ax21:cotizaciones>
+            <ax21:cotizaciones xsi:type="ax21:Cotizacion">
+               <ax21:descripcion>NORMAL</ax21:descripcion>
+               <ax21:detallesCotizacion xsi:nil="true"/>
+               <ax21:tarifa>0.0</ax21:tarifa>
+               <ax21:tiempoEntrega xsi:nil="true"/>
+               <ax21:tiempoSobre>96.0</ax21:tiempoSobre>
+               <ax21:tipoServicio xsi:type="ax21:IdDesc">
+                  <ax21:auxiliar>CULIACAN CENTRO</ax21:auxiliar>
+                  <ax21:auxiliar/>
+                  <ax21:auxiliar>SABATINO</ax21:auxiliar>
+                  <ax21:descripcion>ECOEXPRESS</ax21:descripcion>
+                  <ax21:equivalencia>DOMICILIO</ax21:equivalencia>
+                  <ax21:id>0</ax21:id>
+               </ax21:tipoServicio>
+            </ax21:cotizaciones>
+            <ax21:cotizaciones xsi:type="ax21:Cotizacion">
+               <ax21:descripcion>NORMAL</ax21:descripcion>
+               <ax21:detallesCotizacion xsi:nil="true"/>
+               <ax21:tarifa>0.0</ax21:tarifa>
+               <ax21:tiempoEntrega xsi:nil="true"/>
+               <ax21:tiempoSobre>48.0</ax21:tiempoSobre>
+               <ax21:tipoServicio xsi:type="ax21:IdDesc">
+                  <ax21:auxiliar>CULIACAN CENTRO</ax21:auxiliar>
+                  <ax21:auxiliar/>
+                  <ax21:auxiliar>SABATINO</ax21:auxiliar>
+                  <ax21:descripcion>METROPOLITANO</ax21:descripcion>
+                  <ax21:equivalencia>DOMICILIO</ax21:equivalencia>
+                  <ax21:id>0</ax21:id>
+               </ax21:tipoServicio>
+            </ax21:cotizaciones>
+            <ax21:cotizaciones xsi:type="ax21:Cotizacion">
+               <ax21:descripcion>NORMAL</ax21:descripcion>
+               <ax21:detallesCotizacion xsi:nil="true"/>
+               <ax21:tarifa>0.0</ax21:tarifa>
+               <ax21:tiempoEntrega xsi:nil="true"/>
+               <ax21:tiempoSobre>24.0</ax21:tiempoSobre>
+               <ax21:tipoServicio xsi:type="ax21:IdDesc">
+                  <ax21:auxiliar>CULIACAN CENTRO</ax21:auxiliar>
+                  <ax21:auxiliar/>
+                  <ax21:auxiliar>SABATINO</ax21:auxiliar>
+                  <ax21:descripcion>EXPRESS</ax21:descripcion>
+                  <ax21:equivalencia>OCURRE</ax21:equivalencia>
+                  <ax21:id>0</ax21:id>
+               </ax21:tipoServicio>
+            </ax21:cotizaciones>
+            <ax21:cotizaciones xsi:type="ax21:Cotizacion">
+               <ax21:descripcion>NORMAL</ax21:descripcion>
+               <ax21:detallesCotizacion xsi:nil="true"/>
+               <ax21:tarifa>0.0</ax21:tarifa>
+               <ax21:tiempoEntrega xsi:nil="true"/>
+               <ax21:tiempoSobre>96.0</ax21:tiempoSobre>
+               <ax21:tipoServicio xsi:type="ax21:IdDesc">
+                  <ax21:auxiliar>CULIACAN CENTRO</ax21:auxiliar>
+                  <ax21:auxiliar/>
+                  <ax21:auxiliar>SABATINO</ax21:auxiliar>
+                  <ax21:descripcion>ECOEXPRESS</ax21:descripcion>
+                  <ax21:equivalencia>OCURRE</ax21:equivalencia>
+                  <ax21:id>0</ax21:id>
+               </ax21:tipoServicio>
+            </ax21:cotizaciones>
+            <ax21:cotizaciones xsi:type="ax21:Cotizacion">
+               <ax21:descripcion>NORMAL</ax21:descripcion>
+               <ax21:detallesCotizacion xsi:nil="true"/>
+               <ax21:tarifa>0.0</ax21:tarifa>
+               <ax21:tiempoEntrega xsi:nil="true"/>
+               <ax21:tiempoSobre>48.0</ax21:tiempoSobre>
+               <ax21:tipoServicio xsi:type="ax21:IdDesc">
+                  <ax21:auxiliar>CENTRO SINALOA</ax21:auxiliar>
+                  <ax21:auxiliar/>
+                  <ax21:auxiliar>SABATINO</ax21:auxiliar>
+                  <ax21:descripcion>METROPOLITANO</ax21:descripcion>
+                  <ax21:equivalencia>OCURRE</ax21:equivalencia>
+                  <ax21:id>0</ax21:id>
+               </ax21:tipoServicio>
+            </ax21:cotizaciones>
+            <ax21:cotizaciones xsi:type="ax21:Cotizacion">
+               <ax21:descripcion>NORMAL</ax21:descripcion>
+               <ax21:detallesCotizacion xsi:nil="true"/>
+               <ax21:tarifa>0.0</ax21:tarifa>
+               <ax21:tiempoEntrega xsi:nil="true"/>
+               <ax21:tiempoSobre>96.0</ax21:tiempoSobre>
+               <ax21:tipoServicio xsi:type="ax21:IdDesc">
+                  <ax21:auxiliar>CENTRO SINALOA</ax21:auxiliar>
+                  <ax21:auxiliar/>
+                  <ax21:auxiliar>SABATINO</ax21:auxiliar>
+                  <ax21:descripcion>ECOEXPRESS</ax21:descripcion>
+                  <ax21:equivalencia>DOMICILIO</ax21:equivalencia>
+                  <ax21:id>0</ax21:id>
+               </ax21:tipoServicio>
+            </ax21:cotizaciones>
+            <ax21:cotizaciones xsi:type="ax21:Cotizacion">
+               <ax21:descripcion>NORMAL</ax21:descripcion>
+               <ax21:detallesCotizacion xsi:nil="true"/>
+               <ax21:tarifa>0.0</ax21:tarifa>
+               <ax21:tiempoEntrega xsi:nil="true"/>
+               <ax21:tiempoSobre>48.0</ax21:tiempoSobre>
+               <ax21:tipoServicio xsi:type="ax21:IdDesc">
+                  <ax21:auxiliar>CENTRO SINALOA</ax21:auxiliar>
+                  <ax21:auxiliar/>
+                  <ax21:auxiliar>SABATINO</ax21:auxiliar>
+                  <ax21:descripcion>METROPOLITANO</ax21:descripcion>
+                  <ax21:equivalencia>DOMICILIO</ax21:equivalencia>
+                  <ax21:id>0</ax21:id>
+               </ax21:tipoServicio>
+            </ax21:cotizaciones>
+            <ax21:cotizaciones xsi:type="ax21:Cotizacion">
+               <ax21:descripcion>NORMAL</ax21:descripcion>
+               <ax21:detallesCotizacion xsi:nil="true"/>
+               <ax21:tarifa>0.0</ax21:tarifa>
+               <ax21:tiempoEntrega xsi:nil="true"/>
+               <ax21:tiempoSobre>24.0</ax21:tiempoSobre>
+               <ax21:tipoServicio xsi:type="ax21:IdDesc">
+                  <ax21:auxiliar>CENTRO SINALOA</ax21:auxiliar>
+                  <ax21:auxiliar/>
+                  <ax21:auxiliar>SABATINO</ax21:auxiliar>
+                  <ax21:descripcion>EXPRESS</ax21:descripcion>
+                  <ax21:equivalencia>DOMICILIO</ax21:equivalencia>
+                  <ax21:id>0</ax21:id>
+               </ax21:tipoServicio>
+            </ax21:cotizaciones>
+            <ax21:cotizaciones xsi:type="ax21:Cotizacion">
+               <ax21:descripcion>NORMAL</ax21:descripcion>
+               <ax21:detallesCotizacion xsi:nil="true"/>
+               <ax21:tarifa>0.0</ax21:tarifa>
+               <ax21:tiempoEntrega xsi:nil="true"/>
+               <ax21:tiempoSobre>24.0</ax21:tiempoSobre>
+               <ax21:tipoServicio xsi:type="ax21:IdDesc">
+                  <ax21:auxiliar>CENTRO SINALOA</ax21:auxiliar>
+                  <ax21:auxiliar/>
+                  <ax21:auxiliar>SABATINO</ax21:auxiliar>
+                  <ax21:descripcion>EXPRESS</ax21:descripcion>
+                  <ax21:equivalencia>OCURRE</ax21:equivalencia>
+                  <ax21:id>0</ax21:id>
+               </ax21:tipoServicio>
+            </ax21:cotizaciones>
+            <ax21:cotizaciones xsi:type="ax21:Cotizacion">
+               <ax21:descripcion>NORMAL</ax21:descripcion>
+               <ax21:detallesCotizacion xsi:nil="true"/>
+               <ax21:tarifa>0.0</ax21:tarifa>
+               <ax21:tiempoEntrega xsi:nil="true"/>
+               <ax21:tiempoSobre>96.0</ax21:tiempoSobre>
+               <ax21:tipoServicio xsi:type="ax21:IdDesc">
+                  <ax21:auxiliar>CENTRO SINALOA</ax21:auxiliar>
+                  <ax21:auxiliar/>
+                  <ax21:auxiliar>SABATINO</ax21:auxiliar>
+                  <ax21:descripcion>ECOEXPRESS</ax21:descripcion>
+                  <ax21:equivalencia>OCURRE</ax21:equivalencia>
+                  <ax21:id>0</ax21:id>
+               </ax21:tipoServicio>
+            </ax21:cotizaciones>
+            <ax21:fechaDocumentacion xsi:nil="true"/>
+            <ax21:fechaSituacion xsi:nil="true"/>
+            <ax21:flag>0</ax21:flag>
+            <ax21:guiaAsegurada>false</ax21:guiaAsegurada>
+            <ax21:moneda xsi:nil="true"/>
+            <ax21:numeroDeGuia xsi:nil="true"/>
+            <ax21:observaciones>1</ax21:observaciones>
+            <ax21:paquetes xsi:nil="true"/>
+            <ax21:personaRecibio xsi:nil="true"/>
+            <ax21:pruebaDeEnterga xsi:nil="true"/>
+            <ax21:referencia xsi:nil="true"/>
+            <ax21:remitente xsi:type="ax21:Direccion">
+               <ax21:calle xsi:nil="true"/>
+               <ax21:ciudad xsi:nil="true"/>
+               <ax21:codigoPostal>80020</ax21:codigoPostal>
+               <ax21:colonia_Asentamiento>CULIACÁN</ax21:colonia_Asentamiento>
+               <ax21:contacto xsi:nil="true"/>
+               <ax21:email xsi:nil="true"/>
+               <ax21:estado xsi:nil="true"/>
+               <ax21:iata xsi:nil="true"/>
+               <ax21:nombre_Compania xsi:nil="true"/>
+               <ax21:numeroExterior xsi:nil="true"/>
+               <ax21:numeroInterior xsi:nil="true"/>
+               <ax21:pais xsi:nil="true"/>
+               <ax21:referenciaUbicacion xsi:nil="true"/>
+               <ax21:telefonos xsi:nil="true"/>
+            </ax21:remitente>
+            <ax21:resultadoConsumoWS xsi:type="ax21:Resultado">
+               <ax21:descripcion>GENERACIÓN CORRECTA</ax21:descripcion>
+               <ax21:estatus>1</ax21:estatus>
+               <ax21:gravedad>3</ax21:gravedad>
+            </ax21:resultadoConsumoWS>
+            <ax21:situacion xsi:nil="true"/>
+            <ax21:tipoCambio>0.0</ax21:tipoCambio>
+            <ax21:tipoEntrega xsi:nil="true"/>
+            <ax21:tipoEnvio xsi:nil="true"/>
+            <ax21:tipoIdentificacion xsi:nil="true"/>
+            <ax21:tipoServicio xsi:nil="true"/>
+            <ax21:valorDeclarado>0.0</ax21:valorDeclarado>
+         </ns:return>
+      </ns:coberturaNacionalResponse>
+   </soapenv:Body>
+</soapenv:Envelope>
