@@ -1,11 +1,7 @@
-from flask import Flask, jsonify
 import requests
 import xml.etree.ElementTree as ET
 import json
 
-app = Flask(__name__)
-
-@app.route('/get_cotizaciones', methods=['GET'])
 def get_cotizaciones():
     # URL del endpoint SOAP con puerto
     url = "https://wsqa.redpack.com.mx/RedpackAPI_WS/services/RedpackWS?wsdl"
@@ -81,9 +77,23 @@ def get_cotizaciones():
     # Convertir la lista de cotizaciones a JSON
     cotizaciones_json = json.dumps(cotizaciones, indent=4)
 
-    # Responder con la lista de cotizaciones en formato JSON
-    return jsonify(json.loads(cotizaciones_json))
+    # Imprimir la lista de cotizaciones en formato JSON
+    print(cotizaciones_json)
+
+    # Define la URL para el POST request
+    post_url = 'https://nuvaapp.bubbleapps.io/version-test/api/1.1/wf/crear_ot_pt3/initialize'
+
+    # Define los datos del payload
+    payload = {'cotizaciones': cotizaciones}
+
+    # Envía el POST request
+    response = requests.post(post_url, json=payload)
+
+    # Verifica el código de estado de la respuesta
+    if response.status_code == 200:
+        print('POST request successful')
+    else:
+        print(f'POST request failed with status code: {response.status_code}')
 
 if __name__ == '__main__':
-    app.run(port=4000)
-
+    get_cotizaciones()
