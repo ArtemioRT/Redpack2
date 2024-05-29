@@ -1,7 +1,8 @@
 import requests
 import xml.etree.ElementTree as ET
 import json
-from flask import Flask
+from flask import Flask, jsonify
+
 app = Flask(__name__)
 
 @app.route('/')
@@ -80,9 +81,6 @@ def get_cotizaciones():
     # Convertir la lista de cotizaciones a JSON
     cotizaciones_json = json.dumps(cotizaciones, indent=4)
 
-    # Imprimir la lista de cotizaciones en formato JSON
-    print(cotizaciones_json)
-
     # Define la URL para el POST request
     post_url = 'https://nuvaapp.bubbleapps.io/version-test/api/1.1/wf/crear_ot_pt3'
 
@@ -90,13 +88,19 @@ def get_cotizaciones():
     payload = {'cotizaciones': cotizaciones}
 
     # Envía el POST request
-    response = requests.post(post_url, json=payload)
+    post_response = requests.post(post_url, json=payload)
 
     # Verifica el código de estado de la respuesta
-    if response.status_code == 200:
-        print('POST request successful')
+    if post_response.status_code == 200:
+        post_status = 'POST request successful'
     else:
-        print(f'POST request failed with status code: {response.status_code}')
+        post_status = f'POST request failed with status code: {post_response.status_code}'
 
-# Llama a la función directamente
-get_cotizaciones()
+    # Retorna la respuesta en formato JSON
+    return jsonify({
+        'cotizaciones': cotizaciones,
+        'post_status': post_status
+    })
+
+if __name__ == '__main__':
+    app.run(debug=True)
