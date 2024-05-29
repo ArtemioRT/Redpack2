@@ -1,7 +1,10 @@
 import requests
 import xml.etree.ElementTree as ET
 import json
+from flask import Flask
+app = Flask(__name__)
 
+@app.route('/')
 def get_cotizaciones():
     # URL del endpoint SOAP con puerto
     url = "https://wsqa.redpack.com.mx/RedpackAPI_WS/services/RedpackWS?wsdl"
